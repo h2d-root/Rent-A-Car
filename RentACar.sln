@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{ABFE0CD7-088D-4628-B85D-14CBAFAA35E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{ABFE0CD7-088D-4628-B85D-14CBAFAA35E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{298B41C5-EC0D-43E9-A282-A096C0776EB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{298B41C5-EC0D-43E9-A282-A096C0776EB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Busines", "Busines\Busines.csproj", "{E102E1F0-8B6F-445E-B516-62BF2090B036}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Busines", "Busines\Busines.csproj", "{E102E1F0-8B6F-445E-B516-62BF2090B036}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{EDC243A1-5569-424D-8C03-DA1838C3B99B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{EDC243A1-5569-424D-8C03-DA1838C3B99B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{472A99E8-36CA-412F-A0F9-784ED1B14E31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{472A99E8-36CA-412F-A0F9-784ED1B14E31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormUI", "Rent A Car\FormUI.csproj", "{22BFEA3C-41CA-47EC-92C7-FE86C553AB0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{472A99E8-36CA-412F-A0F9-784ED1B14E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{472A99E8-36CA-412F-A0F9-784ED1B14E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{472A99E8-36CA-412F-A0F9-784ED1B14E31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22BFEA3C-41CA-47EC-92C7-FE86C553AB0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22BFEA3C-41CA-47EC-92C7-FE86C553AB0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22BFEA3C-41CA-47EC-92C7-FE86C553AB0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22BFEA3C-41CA-47EC-92C7-FE86C553AB0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

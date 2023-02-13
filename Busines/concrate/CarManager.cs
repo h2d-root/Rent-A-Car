@@ -20,6 +20,11 @@ namespace Busines.concrate
             _carDal = carDal;
         }
 
+        public void AddCar(Car car)
+        {
+            _carDal.Add(car);
+        }
+
         public List<Car> GetAll()
         {
             return _carDal.GetAll();

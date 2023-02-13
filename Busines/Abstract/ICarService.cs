@@ -12,6 +12,7 @@ namespace Busines.Abstract
     {
         List<Car> GetAll();
         Car GetById(int id);
+        public void AddCar(Car car);
         List<CarDetailDto> GetCarDetail();
     }
 }
